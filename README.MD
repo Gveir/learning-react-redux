@@ -1,0 +1,1 @@
+[Notes](/NOTES.MD), excersises and playground for learning React and Redux from [Udemy course](https://www.udemy.com/react-redux/)
