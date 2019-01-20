@@ -11,3 +11,7 @@ yarn global add create-react-app
 ```
 create-react-app {app-name}
 ```
+## Starting React app
+```
+yarn start
+```
