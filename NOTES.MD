@@ -42,6 +42,12 @@ JSX
 <button style={{ backgroundColor: "blue", color: "white", border: "1px solid red" }} />
 ```
 
+### SemanticUI
+
+Free, open source UI library
+
+semantic-ui.com
+
 ## Referencing variables
 
 ```JSX
@@ -49,3 +55,9 @@ const style={ backgroundColor: "green" }
 const text="Hello World!"
 <div style={style}>{text}</div>
 ```
+
+## Components and Props
+
+- Component nesting
+- Component reusability
+- component configuration
