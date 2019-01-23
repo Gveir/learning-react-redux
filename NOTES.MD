@@ -31,15 +31,17 @@ yarn start
 Html
 
 ```html
-<button
-  style="background-color: blue; color: white; border: 1px solid red;"
-></button>
+<button style="background-color: blue; color: white; border: 1px solid red;">
+  Button text
+</button>
 ```
 
 JSX
 
 ```JSX
-<button style={{ backgroundColor: "blue", color: "white", border: "1px solid red" }} />
+<button style={{ backgroundColor: "blue", color: "white", border: "1px solid red" }} >
+  Button text
+</button>
 ```
 
 ### [SemanticUI](https://semantic-ui.com/)
