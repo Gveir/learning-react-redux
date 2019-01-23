@@ -42,11 +42,9 @@ JSX
 <button style={{ backgroundColor: "blue", color: "white", border: "1px solid red" }} />
 ```
 
-### SemanticUI
+### [SemanticUI](https://semantic-ui.com/)
 
 Free, open source UI library
-
-semantic-ui.com
 
 ## Referencing variables
 
