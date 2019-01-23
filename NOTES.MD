@@ -62,6 +62,14 @@ const text="Hello World!"
 - Component reusability
 - component configuration
 
+### Props
+
+Passing data from a **parent** component to a **child** component. Goal is to customize or configure a child component.
+
+```sequence
+Parent->Child: Props
+```
+
 ## [Faker.js](https://github.com/marak/Faker.js/)
 
 Generating fake realistic data in node.js and browser.
