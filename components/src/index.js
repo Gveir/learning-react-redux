@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import faker from "faker";
 
 import CommentDetail from "./CommentDetail";
+import ApprovalCard from "./ApprovalCard";
 
 const App = () => {
   const comments = [
@@ -10,6 +11,7 @@ const App = () => {
   ];
   return (
     <div className="ui container comments">
+      <ApprovalCard />
       <CommentDetail
         author="Sam"
         avatarSrc={faker.image.avatar()}
