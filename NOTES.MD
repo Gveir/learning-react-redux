@@ -61,3 +61,7 @@ const text="Hello World!"
 - Component nesting
 - Component reusability
 - component configuration
+
+## [Faker.js](https://github.com/marak/Faker.js/)
+
+Generating fake realistic data in node.js and browser.
