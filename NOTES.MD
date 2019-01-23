@@ -70,6 +70,24 @@ Passing data from a **parent** component to a **child** component. Goal is to cu
 Parent->Child: Props
 ```
 
+#### props.children
+
+Pass other component into a component
+
+```JSX
+const Children = () => {
+  return <div className="children" >Some content</div>
+}
+
+const Parent = props => {
+  return <div className="parent" >{props.children}</div>
+}
+
+const App = () => {
+  return <Parent><Children /><Parent>
+}
+```
+
 ## [Faker.js](https://github.com/marak/Faker.js/)
 
 Generating fake realistic data in node.js and browser.
