@@ -75,8 +75,8 @@ Parent->Child: Props
 Pass other component into a component
 
 ```JSX
-const Children = () => {
-  return <div className="children" >Some content</div>
+const Child = () => {
+  return <div className="child" >Some content</div>
 }
 
 const Parent = props => {
@@ -84,7 +84,7 @@ const Parent = props => {
 }
 
 const App = () => {
-  return <Parent><Children /><Parent>
+  return <Parent><Child /><Parent>
 }
 ```
 
