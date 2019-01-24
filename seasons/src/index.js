@@ -17,13 +17,20 @@ class App extends React.Component {
   }
 
   render() {
-    return (
-      <div>
-        <p>Latitude: {this.state.latitude}</p>
-        <p>Longitude: {this.state.longitude}</p>
-        <p>Error: {this.state.errorMessage}</p>
-      </div>
-    );
+    if (this.state.errorMessage && !this.state.latitude) {
+      return <div>Error: {this.state.errorMessage}</div>;
+    }
+
+    if (!this.state.errorMessage && this.state.latitude) {
+      return (
+        <div>
+          <p>Latitude: {this.state.latitude}</p>
+          <p>Longitude: {this.state.longitude}</p>
+        </div>
+      );
+    }
+
+    return <div>Loading...</div>;
   }
 }
 
