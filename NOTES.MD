@@ -88,6 +88,37 @@ const App = () => {
 }
 ```
 
+### State
+
+#### Initialise state
+
+- By constructor
+
+```JSX
+constructor (props) {
+    super(props);
+    this.state = { someProp: "someValue" };
+}
+```
+
+- Method componentDidMount - good place to do data-loading
+
+```JSX
+componentDidMount() {
+    this.setState({ someProp: "someValue" });
+
+    //data-loading
+    window.navigator.geolocation.getCurrentPosition(
+      position =>
+        this.setState({
+          latitude: position.coords.latitude,
+          longitude: position.coords.longitude
+        }),
+      err => this.setState({ errorMessage: err.message })
+    );
+  }
+```
+
 ## [Faker.js](https://github.com/marak/Faker.js/)
 
 Generating fake realistic data in node.js and browser.
