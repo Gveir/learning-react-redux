@@ -101,6 +101,14 @@ constructor (props) {
 }
 ```
 
+- By constructor - alternative way
+
+```JSX
+class App extends React.Component {
+  state = { someProp: "someValue" };
+}
+```
+
 - Method componentDidMount - good place to do data-loading
 
 ```JSX
