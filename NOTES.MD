@@ -130,3 +130,35 @@ componentDidMount() {
 ## [Faker.js](https://github.com/marak/Faker.js/)
 
 Generating fake realistic data in node.js and browser.
+
+# Redux
+
+State management library
+
+**`Action Creator --> Action --> dispatch --> Reducers --> State`**
+
+## `combineReducers`
+
+```JS
+const { combineReducers } = Redux;
+
+const ourDepartments = combineReducers({
+  accounting: accounting,
+  claimsHistory: claimsHistory,
+  policies: policies
+})
+```
+
+## `createStore`
+
+```JS
+const { createStore } = Redux;
+
+const store = createStore(ourDepartments);
+
+const action = createPolicy('Alex', 30);
+
+store.dispatch(action);
+
+store.getState();
+```
