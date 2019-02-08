@@ -16,6 +16,12 @@
       "description": "Test description",
       "userId": "104236407957617285497",
       "id": 3
+    },
+    {
+      "title": "After refactor stream",
+      "description": "Watch me refactor!",
+      "userId": "104236407957617285497",
+      "id": 4
     }
   ]
 }
